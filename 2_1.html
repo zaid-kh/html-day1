@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+</head>
+
+<body>
+    <h1>Create an Account</h1>
+    <form action="signup.php">
+        <div>
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="pass">Password</label> <br>
+            <input type="password" name="pass" id="pass">
+        </div>
+        <div>
+            <label for="age">Age</label> <br>
+            <select name="age" id="age"> Select Age
+                <option value="0" selected>Select Age</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+            </select>
+        </div>
+        <div>
+            <label>Tell us a little about yourself!</label> <br>
+            <textarea name="about" id="about" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="acceptTerms" id="acceptTerms">
+            Agree to the <a href="#">Terms and Services</a>
+        </div>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+
+</html>
